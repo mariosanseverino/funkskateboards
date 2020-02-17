@@ -1,0 +1,91 @@
+@charset "UTF-8";
+
+/* ~~ Designed by Mario Sanseverino ~~ */
+
+body {
+    background-color: #f2f2f2;
+    font-family: monospace;
+    margin: 0;
+}
+
+/* ~~ Navigation Menu ~~ */
+
+#nav {
+    background-color: black;
+    margin: auto;
+    width: 1200px;
+    height: 6em;
+    border-bottom: 0.5em solid #fcf11b;
+}
+
+#nav a {
+    color: white;
+}
+
+#logo {
+    float: left;
+    height: 6em;
+}
+
+#search, #user {
+    height: 1em;
+}
+
+ul {
+    margin: 0;
+    padding: 2em 0 2em 0;
+    list-style: none;
+    text-align: right;
+    line-height: 2em;
+}
+
+ul a {
+    color: black;
+    text-decoration: none;
+}
+
+ul a:hover {
+    color: #fcf11b;
+}
+
+li {
+    display: inline;
+    margin: 0 2em 0 0;
+}
+
+/* ~~ Page Content~~  */
+
+.shop {
+    width: 1200px;
+    height: 100%;
+    margin: 6em auto 0 auto;
+}
+
+.shop img {
+    height: 30em;
+}
+
+#prod1, #prod2, #prod3 {
+    text-align: center;
+    margin: 0 0 0 0;
+    padding: 0;
+    height: 37em;
+    width: 400px;
+    background-color: #f2f2f2;
+    color: black;
+    display: inline-block;
+}
+
+#prod1 {
+    float: left;
+}
+
+#prod2 {
+    float: center;
+}
+
+#prod3 {
+    float: right;
+}
+
+/* ~~ Bottom of the Page ~~ */
